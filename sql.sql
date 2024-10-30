@@ -1,0 +1,3 @@
+Create DATABASE WEDDING_DETAILS(
+    
+)
