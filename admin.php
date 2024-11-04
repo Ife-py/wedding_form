@@ -1,6 +1,9 @@
 <?php 
 include("db_connect.php");
 
+if(!isset($_POST['login'])){
+    header('location:users.php');
+}
 
 ?>
 <!DOCTYPE html>
@@ -14,7 +17,7 @@ include("db_connect.php");
 <body>
     <div class="container">
         <header class="d-flex justify-content-between my-4">
-            <h1>Invitee</h1>
+            <h1>List of invitee</h1>
         </header>
     </div>
     <table class="table table-bordered">
